@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile GODFREY GAYAGAY</title>
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5; /* Light grey background */
+        }
+
+        /* Card Container Styling */
+        .profile-card {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 320px; /* Approximate width from the image */
+            overflow: hidden; /* Ensures rounded corners clip content */
+            text-align: center;
+        }
+
+        /* Profile Header/Banner */
+        .profile-header {
+            background-color: #3f51b5; /* Blue color from the image */
+            color: white;
+            padding: 15px 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        /* Image Styling */
+        .profile-image-container {
+            width: 100%;
+            height: 200px; /* Fixed height for the image area */
+            overflow: hidden;
+            display: flex; /* For centering the image vertically if it's smaller */
+            justify-content: center;
+            align-items: center;
+            background-color: #eee; /* Placeholder background */
+        }
+
+        .profile-image-container img {
+            width: 100%; /* Make image fill the width */
+            height: 100%; /* Make image fill the height */
+            object-fit: cover; /* Cover the container, cropping if necessary */
+            display: block; /* Remove extra space below image */
+        }
+
+        /* Profile Details Section */
+        .profile-details {
+            padding: 20px;
+        }
+
+        .profile-name {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .profile-title {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .profile-description {
+            font-size: 0.9em;
+            color: #777;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+
+        /* Buttons Container */
+        .profile-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px; /* Space between buttons */
+            padding-bottom: 20px; /* Padding below buttons */
+        }
+
+        .profile-button {
+            background-color: #3f51b5; /* Blue button color */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+            text-decoration: none; /* For anchor tags acting as buttons */
+            transition: background-color 0.3s ease;
+        }
+
+        .profile-button:hover {
+            background-color: #303f9f; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <div class="profile-header">
+            Student Profile
+        </div>
+        <div class="profile-image-container">
+            <img src="path/to/your/image.png" alt="GODFREY GAYAGAY.">
+        </div>
+        <div class="profile-details">
+            <h2 class="profile-name">GODFREY GAYAGAY</h2>
+            <p class="profile-title">BSIT BA Student</p>
+            <p class="profile-description">A passionate BSIT student in interested in web design ay ang hirap pala HAHAHAHAHA</p>
+            <div class="profile-buttons">
+                <a href="contact.html" class="profile-button">Contact</a>
+                <a href="portfolio.html" class="profile-button">Portfolio</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
